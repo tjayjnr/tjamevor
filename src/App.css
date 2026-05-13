@@ -15,6 +15,7 @@ body {
   max-width: 860px;
   margin: 0 auto;
   padding: 0 24px;
+  text-align: center;
 }
 
 /* Header */
@@ -95,6 +96,7 @@ nav a:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   gap: 12px;
   margin-top: 16px;
   flex-wrap: wrap;
@@ -117,15 +119,6 @@ section h2 {
 section p {
   color: #57606a;
   max-width: 600px;
-}
-
-#about p {
-  text-align: center;
-  max-width: 100%;
-}
-
-#about {
-  text-align: center;
 }
 
 /* Project cards */
@@ -347,6 +340,7 @@ section p {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  justify-content: center;
 }
 
 .skill-list li {
