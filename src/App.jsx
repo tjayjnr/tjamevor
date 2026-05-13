@@ -86,7 +86,7 @@ function App() {
             />
             <div className="conference-info">
               <h3>ASTFE 11th Annual Conference</h3>
-              <p>Add a short description of the conference, your presentation, or what you presented here.</p>
+              <p>Presented experimental research on nanofluid-enhanced copper heat pipes, evaluating Al₂O₃–DI water nanofluids at 0.5, 1.0, and 1.5 wt% concentrations across inclination angles of 0°–90°. Findings showed that low nanoparticle loading (0.5 wt%) offered the most favorable thermal performance, while higher concentrations introduced penalties that limited heat transport capacity.</p>
             </div>
           </div>
         </div>
