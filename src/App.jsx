@@ -104,7 +104,6 @@ function App() {
 
       <section id="contact">
         <h2>Contact</h2>
-        <p>Feel free to reach out — I'm always open to interesting conversations.</p>
         <div className="contact-links">
           <a
             className="linkedin-badge"
