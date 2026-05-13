@@ -26,9 +26,7 @@ header {
 }
 
 .header-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  position: relative;
   text-align: center;
 }
 
@@ -54,7 +52,9 @@ header h1 {
   border: none;
   cursor: pointer;
   padding: 6px;
-  margin-top: 8px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .menu-btn span {
