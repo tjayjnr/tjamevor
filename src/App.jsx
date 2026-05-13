@@ -61,16 +61,10 @@ function App() {
         <h2>Publications</h2>
         <div className="publication-list">
           <div className="publication-item">
-            <p className="pub-title">Publication Title Goes Here</p>
-            <p className="pub-authors">T. J. Amevor, Co-Author Name, et al.</p>
-            <p className="pub-journal">Journal / Conference Name, Year</p>
-            <a href="#" className="pub-link">View paper →</a>
-          </div>
-          <div className="publication-item">
-            <p className="pub-title">Publication Title Goes Here</p>
-            <p className="pub-authors">T. J. Amevor, Co-Author Name, et al.</p>
-            <p className="pub-journal">Journal / Conference Name, Year</p>
-            <a href="#" className="pub-link">View paper →</a>
+            <p className="pub-title">Nanofluid Enhancement of Gravity-Assisted Copper Heat Pipes: A Systematic Investigation of Working Fluid Optimization</p>
+            <p className="pub-authors">Timothy Junior Amevor, Ashok Kumar Ghosh</p>
+            <p className="pub-journal">ASTFE Digital Library — TFEC2026, pp. 837–846 · DOI: 10.1615/TFEC2026.ml.061637</p>
+            <a href="https://www.dl.astfe.org/en/conferences/tfec2026,75df5e4b311b19c8,67aacf6b2f268a0c.html" className="pub-link" target="_blank" rel="noreferrer">View paper →</a>
           </div>
         </div>
       </section>
