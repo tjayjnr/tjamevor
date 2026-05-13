@@ -103,7 +103,6 @@ function App() {
       </section>
 
       <section id="contact">
-        <h2>Contact</h2>
         <div className="contact-links">
           <a
             className="linkedin-badge"
