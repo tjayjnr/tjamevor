@@ -157,6 +157,19 @@ section p {
   font-size: 0.88rem;
 }
 
+.card-org {
+  font-size: 0.78rem;
+  color: #5b44f2;
+  margin-bottom: 6px;
+}
+
+.card-tech {
+  font-size: 0.78rem;
+  color: #888;
+  margin-top: 10px;
+  font-style: italic;
+}
+
 /* Publications */
 .publication-list {
   display: flex;
@@ -300,19 +313,39 @@ section p {
 }
 
 /* Skills */
+.skill-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skill-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.skill-category {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #5b44f2;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
 .skill-list {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
 }
 
 .skill-list li {
   background: #ffffff;
   border: 1px solid #d0d7de;
   border-radius: 6px;
-  padding: 6px 14px;
-  font-size: 0.9rem;
+  padding: 5px 12px;
+  font-size: 0.88rem;
   color: #1a1a2e;
 }
 

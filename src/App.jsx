@@ -31,8 +31,14 @@ function App() {
       <section id="about">
         <h2>About Me</h2>
         <p>
-          Hi! I'm a passionate engineer and researcher. I love solving hard problems
-          and building things that matter. Replace this with your own introduction.
+          Mechanical Engineer with expertise in thermal systems, computational analysis, and biomimetic design.
+          Currently pursuing a Master's degree at New Mexico Institute of Mining and Technology, I specialize in
+          heat pipe optimization, FEA/CFD modeling, and experimental validation. My research focuses on designing
+          innovative thermal management solutions inspired by nature, leveraging advanced computational tools
+          (COMSOL, OpenFOAM, FluidX3D) and experimental characterization. I am passionate about translating
+          complex engineering challenges into practical, high-performance solutions through rigorous analysis and
+          hands-on fabrication. Strong background in team collaboration, critical decision-making, and driving
+          projects from conception through commercialization.
         </p>
       </section>
 
@@ -40,19 +46,34 @@ function App() {
         <h2>Projects</h2>
         <div className="card-grid">
           <div className="card">
-            <h3>Project One</h3>
-            <p>A short description of what this project does and what technologies you used.</p>
-            <a href="#">View →</a>
+            <p className="card-org">NASA New Mexico Space Grant Consortium · May 2025 – Present</p>
+            <h3>D-Shaped Biomimetic Heat Pipe with Separated Vapor-Condensate Flow</h3>
+            <p>Designed D-shaped heat pipe geometry to optimize vapor and condensate flow separation. Characterized biomimetic porous wick structures via microCT imaging and CFD. Conducted multi-phase thermal simulations in COMSOL, OpenFOAM, and FluidX3D, and fabricated experimental prototypes with nanofluid working fluids.</p>
+            <p className="card-tech">COMSOL · OpenFOAM · FluidX3D · SolidWorks · MATLAB</p>
           </div>
           <div className="card">
-            <h3>Project Two</h3>
-            <p>A short description of what this project does and what technologies you used.</p>
-            <a href="#">View →</a>
+            <p className="card-org">NASA University Nanosatellite Program · May 2025 – Aug 2025</p>
+            <h3>Thermal Management — 6U CubeSat Thermal Analysis</h3>
+            <p>Developed a comprehensive thermal model for a space-based CubeSat accounting for solar radiation, Earth albedo, and deep-space conditions. Conducted transient analysis to identify hot/cold spots and optimized radiator design for reliable operation across eclipse cycles.</p>
+            <p className="card-tech">COMSOL Multiphysics · MATLAB · Thermal Modeling</p>
           </div>
           <div className="card">
-            <h3>Project Three</h3>
-            <p>A short description of what this project does and what technologies you used.</p>
-            <a href="#">View →</a>
+            <p className="card-org">Feb 2025 – Apr 2025</p>
+            <h3>Composite Materials Analysis — Helical Fiber-Reinforced Structures</h3>
+            <p>Performed comparative FEA of uniform vs. helical fiber-reinforced composites using ABD matrix theory. Achieved 18% improvement in flexural stiffness at equivalent mass. Identified delamination and fiber-matrix failure mechanisms validated against theoretical models.</p>
+            <p className="card-tech">COMSOL · ANSYS · MATLAB</p>
+          </div>
+          <div className="card">
+            <p className="card-org">Oct 2024 – Present</p>
+            <h3>Fluid-Filled Sensor-Activated Biomimetic Helmet Liner</h3>
+            <p>Designing a three-layer protective liner inspired by woodpecker cranial damping. Fluid-filled lattice achieves tunable stiffness (up to 1,400× increase) for dynamic impact protection. Integrated Time-of-Flight sensors for real-time impact localization and system feedback.</p>
+            <p className="card-tech">ANSYS · Topology Optimization · Biomimetic Design · Sensor Integration</p>
+          </div>
+          <div className="card">
+            <p className="card-org">Jan 2023 – Aug 2023</p>
+            <h3>High-Speed Meat-Slicing Machine — Design & Fabrication</h3>
+            <p>Led multi-disciplinary mechanical design covering cutting speed, vibration control, and user safety. Managed full fabrication cycle: part manufacturing, assembly, automation integration, and performance testing.</p>
+            <p className="card-tech">SolidWorks · Mechanical Design · Fabrication</p>
           </div>
         </div>
       </section>
@@ -88,12 +109,44 @@ function App() {
 
       <section id="skills">
         <h2>Skills</h2>
-        <ul className="skill-list">
-          <li>React / JavaScript</li>
-          <li>Python</li>
-          <li>Data Analysis</li>
-          <li>Add your own skills here</li>
-        </ul>
+        <div className="skill-groups">
+          <div className="skill-group">
+            <p className="skill-category">Simulation & Analysis</p>
+            <ul className="skill-list">
+              <li>COMSOL Multiphysics</li><li>ANSYS</li><li>OpenFOAM</li><li>FluidX3D</li>
+            </ul>
+          </div>
+          <div className="skill-group">
+            <p className="skill-category">CAD & Modeling</p>
+            <ul className="skill-list">
+              <li>SolidWorks</li><li>AutoCAD</li><li>Blender</li><li>Fusion 360</li><li>ParaView</li>
+            </ul>
+          </div>
+          <div className="skill-group">
+            <p className="skill-category">Programming & Data</p>
+            <ul className="skill-list">
+              <li>MATLAB</li><li>Python</li><li>FIJI/ImageJ</li><li>3D Slicer</li>
+            </ul>
+          </div>
+          <div className="skill-group">
+            <p className="skill-category">Manufacturing & Lab</p>
+            <ul className="skill-list">
+              <li>Additive Manufacturing</li><li>Welding</li><li>CNC Operation</li><li>Data Acquisition</li><li>Sensor Calibration</li>
+            </ul>
+          </div>
+          <div className="skill-group">
+            <p className="skill-category">Documentation</p>
+            <ul className="skill-list">
+              <li>LaTeX</li><li>Microsoft Office</li><li>Technical Writing</li><li>Git Version Control</li>
+            </ul>
+          </div>
+          <div className="skill-group">
+            <p className="skill-category">Professional</p>
+            <ul className="skill-list">
+              <li>Team Leadership</li><li>Project Management</li><li>Research Planning</li><li>Data Interpretation</li>
+            </ul>
+          </div>
+        </div>
       </section>
 
       <section id="contact">
